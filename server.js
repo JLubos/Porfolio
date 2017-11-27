@@ -17,9 +17,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
-//Route for the homepage
-app.get("/", function(req,res){
-	res.sendFile(path.join(__dirname + "./home.html"));
+// Serve static content for the app from the "public" directory in the application directory.
+app.use(express.static(path.join(__dirname, '/public')));
+
+app.get("/", function(req, res) {
+  res.sendFile(path.join(__dirname, "index.html"));
 });
 
 
