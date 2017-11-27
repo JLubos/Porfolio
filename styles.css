@@ -1,0 +1,98 @@
+body{
+	background-color: black;
+	font-family: 'VT323';
+	font-size: 18px;
+	background-image: url("back5.jpg");
+	background-attachment: fixed;
+
+
+}
+
+.jumbotron{
+	height: 100%;
+	background-color: transparent;
+	position: static;
+
+	
+}
+
+
+.display-3{
+	font-size: 108px;
+	font-family: 'VT323';
+	color: white;
+
+
+}
+
+.lead{
+	font-family: 'VT323';
+	color: #00FF00;
+}
+
+.aboutImg{
+	height: 400px;
+	width: 300px;
+	border-radius: 8px;
+	align-content: center;
+	
+}
+
+
+.aboutMe{
+	color:white;
+	}
+
+.aboutCoding{
+	color:white;
+	
+}
+
+.first{
+	color:white;
+
+}
+
+.second{
+	
+	color:#E57200;
+
+}
+
+.third{
+	color: #002147;
+
+}
+
+
+hr{
+	width:75%;
+	opacity: .2;
+}
+
+.white{
+	color: white;
+}
+
+.red{
+	color: red;
+}
+
+
+.projectImg{
+	height: 300px;
+	width: 600px;
+
+}
+
+
+.photos{
+	height:300px;
+	width: 500px;
+}
+
+i{
+	color: #00FF00;
+	margin-left: 30px;
+
+}
